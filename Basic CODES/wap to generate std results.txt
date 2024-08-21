@@ -1,0 +1,25 @@
+s={}
+n=int(input('enter no of students'))
+for i in range(n):
+    l=[]
+    htno=int(input('enter htno:'))
+    sname=input('enter name:')
+    s1=int(input('enter maths:'))
+    s2=int(input('enter physics:'))
+    s3=int(input('enter cs:'))
+    l.append(sname)
+    l.append(s1)
+    l.append(s2)
+    l.append(s3)
+    s[htno]=l
+    hno=int(input("enter hno:"))
+    print("name of the student:",s[hno][0])
+    total=s[hno][1]+s[hno][2]+s[hno][3]
+    avg=total//3
+    print('percentage:',avg)
+    if avg>60:
+        print("pass")
+    else:
+        print("fail")
+print(s)
+        
