@@ -1,0 +1,26 @@
+
+sno=(int(input()))
+sname=(input())
+group=(input())
+subjects=(input())
+s1=int(input())
+s2=int(input())
+s3=int(input())
+avg=(s1+s2+s3)/3
+print(avg)
+
+
+
+
+
+
+
+
+op--4
+Teja
+DSSCS
+statistics big data
+1
+2
+3
+2.0
