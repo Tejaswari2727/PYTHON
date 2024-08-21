@@ -1,0 +1,20 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=int(input())
+l2=list(map(int,input().split()))
+l.extend(l2)
+print(min(l))
+min==l[0]
+for i in l:
+    if i<min:
+       min=i
+print(min)
+
+
+
+op-
+4
+12 34 7 2
+5
+12 34535 6767 232 464
+2<-----print
