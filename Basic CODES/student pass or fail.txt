@@ -1,0 +1,22 @@
+sno=int(input("sno"))
+sname=input("sname")
+group=input("group")
+s1=int(input("maths marks"))
+s2=int(input("physics marks"))
+s3=int(input("computer marks"))
+if(s1>=40,s2>=40,s3>=40):
+    print("pass")
+else:
+    print("fail")
+
+
+
+
+
+    output---
+    sno:1
+    sname:ravi
+    groups:DSSCS
+    maths marks: 78
+    phy marks:42
+    Fail
