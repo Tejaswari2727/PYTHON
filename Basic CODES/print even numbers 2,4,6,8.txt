@@ -1,0 +1,11 @@
+i=2
+while(i<=9):
+    print(i,end=' ')
+    i=i+2
+    
+
+
+op-----
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/17-10-2004.py
+2 4 6 8 

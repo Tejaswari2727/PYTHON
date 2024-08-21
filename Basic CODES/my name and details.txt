@@ -1,0 +1,5 @@
+print("my name is Tejaswari")
+print("my father name is Apparao")
+print("my mother name is Eswaramma")
+print("I am studying in BSC data science")
+print("I want become an IPS")

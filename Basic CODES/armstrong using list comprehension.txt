@@ -1,0 +1,20 @@
+n=int(input())
+temp=n
+sum=0
+while n!=0:
+    r=n%10
+    n=n//10
+    sum=sum+r*r*r
+if temp==n:
+    print("armstrong")
+else:
+    print("not armstrong")
+l=[i for i in range(1,n+1)if armstrong(i)]
+
+
+
+
+
+
+
+

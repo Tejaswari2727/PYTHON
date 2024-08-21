@@ -1,0 +1,22 @@
+a=int(input())
+b=int(input())
+if(a>b):
+    print("a is big")
+else:
+    print("b is big")
+
+
+
+
+
+
+output------
+20
+30
+b is big
+
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/p3 day--3.py
+3
+1
+a is big

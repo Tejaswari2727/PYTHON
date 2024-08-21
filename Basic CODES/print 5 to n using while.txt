@@ -1,0 +1,19 @@
+i=5
+n=50
+while(i<=n):
+    print(i)
+    i=i+5
+
+
+output------
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/18-10-2023.py
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50

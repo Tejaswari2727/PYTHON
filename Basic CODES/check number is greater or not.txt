@@ -1,0 +1,15 @@
+n=int(input())
+if(n>50):
+    print("hi")
+else:
+    print("bye")
+
+
+
+
+op-----
+55
+hi
+
+32
+bye

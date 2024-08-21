@@ -1,0 +1,20 @@
+sno=int(input("enter a sno:"))
+sname=input("enter a sname:")
+sgroup=input("enter a sgroup")
+s1=int(input("enter a DS marks"))
+s2=int(input("enter a Stat marks"))
+s3=int(input("enter a C marks"))
+total=s1+s2+s3
+avg=total/3
+if(avg>=90):
+    print("destinction")
+elif(avg>=70):
+    print("first class")
+elif(avg>=50):
+    print("second class")
+elif(avg>=40):
+    print("third class")
+else:
+    print("fail")
+
+

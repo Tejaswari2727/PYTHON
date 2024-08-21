@@ -1,0 +1,33 @@
+n=int(input())
+if(n%4==0)and(n%100!=0):
+    print("given year is a leap year")
+elif(n%400==0):
+    print("given year is a leap year")
+else:
+    print("given year is a not a leap year")
+
+
+
+
+output------
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/13-10-2023.py
+2000
+given year is a leap year
+1999
+1999
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/13-10-2023.py
+1999
+given year is a not a leap year
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/13-10-2023.py
+2024
+given year is a leap year
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/13-10-2023.py
+2027
+given year is a not a leap year
+

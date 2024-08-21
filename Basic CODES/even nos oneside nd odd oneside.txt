@@ -1,0 +1,26 @@
+n=int(input())
+l=list(map(int,input().split()))
+e=[]
+o=[]
+for i in l:
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+res=e+o
+for i in res:
+    print(i,end=' ')
+
+
+
+
+
+
+
+---------------op-----------------
+6
+5 4 9 3 51 2
+4 2 5 9 3 51 
+
+
+

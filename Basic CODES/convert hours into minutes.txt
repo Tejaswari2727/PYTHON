@@ -1,0 +1,12 @@
+n=int(input())
+a=int(input())
+print(n*a)
+
+
+
+
+
+
+op--100
+60
+6000
