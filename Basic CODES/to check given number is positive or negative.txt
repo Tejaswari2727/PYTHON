@@ -1,0 +1,16 @@
+n=int(input())
+if(n>0):
+    print("positive number")
+else:
+    print("negative number")
+
+
+output---
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/12-10-2023.py
+-1
+negative number
+
+= RESTART: C:/Users/batti/AppData/Local/Programs/Python/Python311/12-10-2023.py
+5
+positive number
